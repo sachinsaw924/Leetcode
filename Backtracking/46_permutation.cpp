@@ -2,7 +2,8 @@
 // Revision mark : 0
 // This is solve by general bracktracking method khandani template 
 
-
+// T.C O(n*n!)
+// s.c O(n)
 class Solution {
 public:
   

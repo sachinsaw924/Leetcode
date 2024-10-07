@@ -38,7 +38,7 @@ public:
 //T.c  O(n)
 // S.c O(n)
 
-// Read and write method 
+// Read and write method  i == write  j == read
 
 class Solution {
 public:

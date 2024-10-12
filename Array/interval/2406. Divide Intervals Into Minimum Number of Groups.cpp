@@ -26,3 +26,15 @@ public:
         return que.size();
     }
 };
+
+
+
+
+
+
+/// how to sort based on ending points 
+// Sort intervals by their end points
+sort(intervals.begin(), intervals.end(), [](const vector<int>& a, const vector<int>& b) {
+    return a[1] < b[1]; // Compare based on the end points (second value of each interval)
+});
+

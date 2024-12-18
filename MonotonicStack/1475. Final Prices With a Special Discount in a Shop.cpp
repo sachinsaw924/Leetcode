@@ -2,7 +2,10 @@
 
 // Tc O(2*n)  // do bar hi visit kr rhe hai ek bar iterate krte waqt or dusra pop krte waqt
 // sc o(n )
-
+// isme bhut sare problem krne hai 
+// next smaller element to left or right
+// next larger element to left or right 
+//  dhayan se kr lena 
 
 class Solution {
 public:

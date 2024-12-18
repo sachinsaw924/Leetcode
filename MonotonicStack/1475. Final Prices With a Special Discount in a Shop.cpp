@@ -1,6 +1,6 @@
 
 
-// Tc O(2*n)  // do bar hi visit kr rhe hai
+// Tc O(2*n)  // do bar hi visit kr rhe hai ek bar iterate krte waqt or dusra pop krte waqt
 // sc o(n )
 
 

@@ -30,10 +30,15 @@ public:
     {
         x =  x &  ~(1<<bit);
     }
+    //   void unSet(int &x , int bit)
+    // {
+    //     x =  x ^(1<<bit);
+    // }
 
     
     int minimizeXor(int num1, int num2) {
         int currentSetBit = countSetBit(num1);
+        // int currentSetBit = __builtin_popcount(num1)
         int requiredSetBit = countSetBit(num2);
 
         int x = num1;
